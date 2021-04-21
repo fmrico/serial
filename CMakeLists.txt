@@ -47,7 +47,7 @@ include_directories(include)
 ## Install
 set(INSTALL_LIB_DIR lib)
 set(INSTALL_INCLUDE_DIR include)
-set(INSTALL_CMAKE_DIR share/serial/cmake)
+set(INSTALL_CMAKE_DIR share/cmake/serial)
 
 ## Install executable
 install(TARGETS ${PROJECT_NAME}
